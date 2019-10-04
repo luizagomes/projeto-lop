@@ -1,4 +1,3 @@
-<script>
 /*
 Equipe:
 Luiza Gabriela Gomes de Mesquita
