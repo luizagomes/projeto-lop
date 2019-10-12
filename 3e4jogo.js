@@ -1,7 +1,7 @@
 /*
 Equipe:
 Luiza Gabriela Gomes de Mesquita - Subturma B
-Etapa 1 e 2
+Etapa 1, 2, 3 e 4.
 */
 
 var x = 100;
