@@ -67,15 +67,16 @@ function draw() {
     vidas= vidas -1
   }
   //quadrado representa o obstaculo
-  let c = color(50); // Define color 'c'
-fill(c); // Use color variable 'c' as fill color
-noStroke(); // Don't draw a stroke around shapes
+  //funçao pra cor
+  let c = color(50); 
+fill(c); 
+noStroke(); 
   square(200, 265, 50);
   
   //objeto
   b = color(150, 75, 0);
-  fill(b); // Use color variable 'c' as fill color
-  noStroke(); // Don't draw a stroke around shapes
+  fill(b); 
+  noStroke(); 
   ellipse( xo, yo, 2*raio2, 2*raio2);
   xo = xo+5 ;
   if(xo>400)
