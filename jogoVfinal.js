@@ -155,7 +155,8 @@ if(tela==2){
   imageMode(CENTER);
   image(imgb, xo, yo);
    yo = yo+5 ;
-    //movimentaçao do bonus
+    
+   //movimentaçao do bonus
   if(yo>700)
   {
     yo = -random(2000) ;
@@ -256,8 +257,8 @@ fill(255, 255, 255);
 var anima;
 var imgsAndando = [];
 var contFrame = 0;
-var x = 0;
-var widht;
+var y = 0;
+var height;
 function preload() {
   for(j = 0; j<2 ; i++) {
     imgsAndando[i]= loadImage('p'+i+'.png');
@@ -271,9 +272,9 @@ function setup() {
 
 function draw() {
   background(200);
-  x = x+2;
-  if(x>widht){
-    x=0
+  y = y+2;
+  if(x>height){
+    y=0
   }
   anima = imgsAndando[contFrame];
   noStroke();
