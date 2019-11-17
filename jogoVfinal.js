@@ -98,7 +98,7 @@ if(tela==2){
   //jogador 
   fill(28, 28, 28);
   noStroke();
-  ellipse(x, y, 2*raio1, 2*raio1);
+  //ellipse(x, y, 2*raio1, 2*raio1);
   imageMode(CENTER);
   image(imgj, x, y);
   //disparo
