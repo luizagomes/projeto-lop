@@ -53,7 +53,7 @@ function setup() {
   frameRate(30); 
   for(i=0; i<qt; i++){
     vx[i] = random(20,480); 
-    vy[i] = random(-1500,1500);
+    vy[i] = random(-1500,300);
   }
 }
 
@@ -111,7 +111,7 @@ if(tela==2){
   }
   
   if(estadodisparo == true){
-    ellipse(xd,yd, 2*raio3, 2*raio3)
+    //ellipse(xd,yd, 2*raio3, 2*raio3)
     imageMode(CENTER);
     image(imgt , xd, yd);
     yd = yd - 10;
